@@ -1,0 +1,822 @@
+footer
+{
+    background: #0e0e0e;
+    position: relative;
+    padding: 10px 0 15px;
+    position: relative;
+    font-family: "Open Sans",sans-serif;
+}
+
+#footer {
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    background: rgb(14, 14, 14);
+    padding: 10px 0px 15px;
+}
+#footer-mb
+{
+    display: none;
+}
+footer .main-wrap
+{
+    position: relative;
+    z-index: 2;
+}
+footer .footer-curve
+{
+    display: none;
+}
+footer .title-partner h2
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.title-partner.fix-pd
+{
+    padding-top: 5px;
+}
+.group-team
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 325px;
+}
+.group-team-logo
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.group-team-logo .team-partner
+{
+    max-width: 60px;
+    width: 100%;
+    padding-right: 20px;
+}
+.group-team-logo .team-partner img, .group-team-logo .team-company img
+{
+    width: 100%;
+    height: auto;
+}
+.group-team-logo .team-company
+{
+    max-width: 170px;
+    width: 100%;
+    padding-left: 20px;
+    border-left: 2px solid #fff;
+}
+.title-partner
+{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 8px;
+    font-weight: 400;
+}/* ambassador */
+footer .footer-endorser h2
+{
+    padding-top: 3px;
+}
+.footer-endorser .wp-menu-ambassador
+{
+    display: flex;
+    gap: 9px;
+}
+.group-ambassador
+{
+    display: flex;
+    gap: 50px;
+    margin-top: 0;
+    width: 100%;
+    max-width: 250px;
+}
+.group-ambassador .ambassador
+{
+    width: 100%;
+    display: flex;
+    max-width: 247px;
+    width: 100%;
+}
+.ambassador-sign
+{
+    width: 55%;
+}
+.ambassador-avatar
+{
+    width: 37%;
+    position: relative;
+}
+.ambassador-avatar::after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(180deg,rgba(14,14,14,0) 0%,#0e0e0e 54.76%,#0e0e0e 109.52%);
+}
+.ambassador-name
+{
+    line-height: 1.2;
+    font-size: 16px;
+    color: #fff;
+}
+.group-ambassador .ambassador .logo
+{
+    padding-top: 0;
+    max-width: 75px;
+    margin-bottom: 0;
+}
+.group-ambassador .ambassador img
+{
+    width: 100%;
+    height: auto;
+}
+footer .title-ft
+{
+    font-size: 46px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 7px;
+    color: #fff;
+}
+footer .footer-main, footer .footer-main-middle
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 39px;
+    flex-direction: row-reverse;
+}
+footer .footer-main .footer-cont
+{
+    margin: 0 auto;
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+}
+footer .footer-main .left, footer .footer-main .right
+{
+    width: 50%;
+}
+.middle-layout
+{
+    width: 100%;
+    margin: auto;
+}
+footer .footer-main .footer-cont>*
+{
+    padding: 30px 0;
+}
+footer .footer-main .footer-cont .pure-u-3-5
+{
+    border-bottom: 1px solid rgba(255,255,255,.5);
+    width: 100%;
+}
+footer .footer-main .footer-cont .pure-u-1-5
+{
+    width: 33.333%;
+}
+footer .footer-main .footer-cont .footer-head
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+footer .footer-main .footer-cont .provider-list-box
+{
+    padding-right: 40px;
+}
+footer .footer-main .footer-cont .provider-list-box img
+{
+    filter: grayscale(100%) brightness(600%);
+    margin-right: 4px;
+    margin-top: -2px;
+    transform: scale(.9);
+    transition: .5s;
+}
+footer .footer-main .footer-cont .provider-list-box img:hover
+{
+    filter: grayscale(0) brightness(100%);
+}
+footer .footer-main .footer-cont .footer-links
+{
+    display: flex;
+    flex-direction: column;
+}
+footer .footer-main .footer-cont .footer-links a
+{
+    color: #fff;
+    font-size: 14px;
+    margin: 5px 0;
+    text-decoration: none;
+}
+footer .footer-main .footer-cont .footer-links a:hover
+{
+    opacity: .5;
+}
+footer .copy
+{
+    border-top: 1px solid rgba(255,255,255,.5);
+    color: #fff;
+    font-size: 12px;
+    line-height: 60px;
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+    width: 100%;
+}
+footer .footer-intro
+{
+    color: #fff;
+    line-height: 1.4;
+    margin-bottom: 16px;
+    text-align: justify;
+}
+footer .footer-intro span
+{
+    color: #ef653d;
+    cursor: pointer;
+    padding: 0 1px;
+    text-decoration: underline;
+}
+footer .footer-main2 .team-partner
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+footer .footer-main2 .left
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 620px;
+    width: 100%;
+    gap: 10px;
+}
+footer .footer-main2 .item-icon-ft
+{
+    width: auto;
+    height: auto;
+    max-height: 40px;
+    overflow: hidden;
+    transition: all .4s;
+}
+footer .footer-main2 .item-icon-ft img
+{
+    width: auto;
+    height: 40px;
+    transition: all .4s;
+}
+footer .footer-main2 .item-icon-ft img:last-child
+{
+    display: block;
+}
+footer .footer-main2 .item-icon-ft:hover img:first-child
+{
+    display: block;
+}
+footer .footer-main2 .item-icon-ft:hover img:last-child
+{
+    display: block;
+}
+footer .footer-main2 .right
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 620px;
+    width: 100%;
+    gap: 10px;
+}
+footer .footer-main-middle .left
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 620px;
+    width: 100%;
+}
+footer .footer-main-middle .right
+{
+    width: 100%;
+    max-width: 620px;
+}
+footer .footer-okvip
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-okvip .tl-top
+{
+    font-size: 27px;
+    font-weight: 700;
+    color: #fff;
+    margin: 10px 0;
+}
+footer .footer-okvip .tl-button
+{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+footer .footer-okvip .okvip-title
+{
+    font-size: 15px;
+    line-height: 1.6;
+    text-transform: capitalize;
+    width: auto;
+}
+footer .footer-okvip .okvip-title>h5
+{
+    font-weight: 700;
+    width: auto;
+    line-height: 25px;
+}
+footer .footer-okvip .okvip-img
+{
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    max-width: 335px;
+    width: 100%;
+}
+footer .footer-okvip .okvip-img img
+{
+    display: block;
+    height: 62px;
+    width: auto;
+}
+footer .footer-okvip .okvip-img .hr
+{
+    background: #fff;
+    display: block;
+    height: 62px;
+    width: 1px;
+}
+footer .footer-link
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 25px;
+    text-align: center;
+}
+footer .footer-link a
+{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0;
+    line-height: 1.3;
+    width: auto;
+}
+footer .footer-link .hr
+{
+    background: #fff;
+    display: block;
+    height: 18px;
+    width: 1px;
+}
+footer .footer-copy
+{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 0 5px;
+}
+footer .footer-okvip
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.w-17
+{
+    width: 17%;
+}
+.w-60
+{
+    width: 60%;
+}
+.w-65
+{
+    width: 65%;
+}
+.w-70
+{
+    width: 70%;
+}
+.w-80
+{
+    width: 80%;
+}
+.w-90
+{
+    width: 90%;
+}
+.w-100
+{
+    width: 100%;
+}/* Footer Menu */
+.footer-menu
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 9px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.footer-menu .ft-column
+{
+    width: 47%;
+}
+.ft-column a
+{
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10.5px 0;
+    width: 100%;
+    position: relative;
+    text-transform: capitalize;
+}
+.ft-column a:hover
+{
+    color: #fff!important;
+}
+.ft-column a::before
+{
+    content: "";
+    width: 90%;
+    height: 1px;
+    border-bottom: 1px dotted #fff;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+.ft-column a:last-child::before
+{
+    content: unset;
+}
+.ft-column a:last-child
+{
+    border-bottom: none;
+}
+.logo-top-team img
+{
+    width: 100%;
+}
+@media screen and (max-width: 1300px)
+{
+    .footer-menu
+    {
+        gap: 15px;
+    }
+    .footer-endorser .wp-menu-ambassador
+    {
+        gap: 20px;
+    }
+    .footer-menu .ft-column
+    {
+        width: 48%;
+    }
+    .ft-column a
+    {
+        font-size: 16px;
+    }
+    .ambassador-name
+    {
+        font-size: 14px;
+    }
+    .group-ambassador .ambassador .logo
+    {
+        max-width: 62px;
+    }
+}
+@media screen and (max-width: 1200px)
+{
+    footer .footer-okvip .okvip-img
+    {
+        gap: 10px;
+        max-width: 235px;
+    }
+    .group-team-logo .team-partner
+    {
+        max-width: 60px;
+        padding-right: 10px;
+    }
+    .group-team-logo .team-company
+    {
+        max-width: 145px;
+        padding-left: 10px;
+    }
+    .group-ambassador
+    {
+        gap: 25px;
+    }
+    .group-team-logo
+    {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    footer .title-partner h2
+    {
+        font-size: 20px;
+    }
+    footer .footer-main2 .item-icon-ft img
+    {
+        height: 30px;
+    }
+}
+@media only screen and (max-width: 1100px)
+{
+    .footer-endorser .wp-menu-ambassador
+    {
+        gap: 10px;
+    }
+    footer .footer-main, footer .footer-main-middle
+    {
+        gap: 25px;
+    }
+}
+@media only screen and (max-width: 1024px)
+{
+    .ft-column a
+    {
+        font-size: 12px;
+        padding: 6.4px 0;
+    }
+}
+@media only screen and (max-width: 990px)
+{
+    .title-partner
+    {
+        font-size: 14px;
+    }
+    .group-team-logo .team-partner
+    {
+        max-width: 43px;
+    }
+    footer .footer-link a
+    {
+        font-size: 14px;
+    }
+    .group-team
+    {
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 1100px) and (min-width: 768px)
+{
+    footer .footer-okvip .okvip-img img
+    {
+        height: 57px;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    footer
+    {
+        background: #3c3c3c!important;
+        margin: 0;
+    }
+    #footer
+    {
+        display: none;
+    }
+    #footer-mb
+    {
+        display: block;
+    }
+    .footer-mb-wrap .wp-title h2
+    {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 17.57px;
+        padding-bottom: 0;
+        margin: 0;
+    }
+    .group-ambassador-sp, .group-partner-sp
+    {
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+        gap: 20px;
+    }
+    .group-ambassador-sp
+    {
+        padding-bottom: 0;
+    }
+    .footer-menu .ft-column
+    {
+        width: 49%;
+    }
+    .tt-ambassador
+    {
+        width: 50%;
+        display: flex;
+    }
+    .ambassador-sign
+    {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .ambassador-sign
+    {
+        width: 50%;
+        height: auto;
+    }
+    .tt-ambassador h3
+    {
+        font-size: 13px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        line-height: 1.5;
+        font-weight: 400;
+    }
+    .ambassador-sign .logo-sign
+    {
+        width: 18vw;
+        padding-left: 15px;
+    }
+    .tt-ambassador, .ambassador-logo
+    {
+        width: 50%;
+        display: flex;
+    }
+    .ambassador-logo .logo-okvip
+    {
+        width: 60%;
+        height: auto;
+    }
+    .ambassador-logo .logo-okvip
+    {
+        width: 77%;
+        height: auto;
+    }
+    .ambassador-logo .logo-partner
+    {
+        width: 28%;
+        height: auto;
+    }
+    .ambassador-logo .logo-partner img
+    {
+        width: 11vw;
+        padding-right: 15px;
+    }
+    .ambassador-logo .logo-okvip img
+    {
+        width: 30vw;
+        height: auto;
+        padding-left: 15px;
+        border-left: 1px solid #8b8b8b;
+    }
+    .list-multimedia
+    {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 0 0 10px;
+        row-gap: 10px;
+    }
+    .list-multimedia .item-media
+    {
+        width: calc(50% - 10px);
+        list-style: none!important;
+    }
+    .list-multimedia .item-media .title
+    {
+        font-size: 13px;
+        color: #fff;
+        padding-bottom: 8px;
+    }
+    .media-image
+    {
+        width: auto;
+    }
+    .media-image
+    {
+        display: flex;
+        gap: 20px;
+    }
+    footer .footer-main2 .team-partner
+    {
+        justify-content: space-around;
+        width: 100%;
+        gap: 10px;
+        row-gap: 19px;
+        flex-wrap: wrap!important;
+        opacity: .7;
+    }
+    footer .footer-main2 .item-icon-ft
+    {
+        width: 14%;
+    }
+    footer .footer-main2 .item-icon-ft img
+    {
+        margin: auto;
+    }
+    footer .footer-main2 .item-icon-ft:nth-child(6n) img
+    {
+        margin-right: 0;
+    }
+    footer .footer-main2 .item-icon-ft:nth-child(6n), footer .footer-main2 .item-icon-ft:nth-child(1), footer .footer-main2 .item-icon-ft:nth-child(7)
+    {
+        width: 12%;
+    }
+    footer .footer-main2 .item-icon-ft:nth-child(1) img, footer .footer-main2 .item-icon-ft:nth-child(7) img
+    {
+        margin-left: 0;
+    }
+    footer .footer-main2 .item-icon-ft:first-child(6n)
+    {
+        width: 10%;
+    }
+    .footer-menu
+    {
+        padding-top: 5px;
+    }
+    .ft-column a
+    {
+        opacity: .7;
+    }
+    .ft-column a::before
+    {
+        width: 90%;
+        right: 5px;
+    }
+    .footer-menu
+    {
+        gap: 12px;
+    }
+}
+@media screen and (max-width: 425px)
+{
+    .ambassador-sign .logo-sign
+    {
+        padding-left: 7px;
+    }
+    .ambassador-logo .logo-okvip img
+    {
+        padding-left: 15px;
+    }
+}
+@media screen and (max-width: 374px)
+{
+    .footer-menu
+    {
+        gap: 10px;
+    }
+    .ft-column a
+    {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 370px)
+{
+    .footer-mb-wrap .wp-title h2
+    {
+        color: #fff;
+        font-size: 13px;
+    }
+    .tt-ambassador h3
+    {
+        font-size: 12px;
+    }
+    .list-multimedia .item-media .title
+    {
+        font-size: 12px;
+    }
+    .ft-column a
+    {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 350px)
+{
+    .footer-mb-wrap .wp-title h2
+    {
+        color: #fff;
+        font-size: 13px;
+    }
+    .tt-ambassador h3
+    {
+        font-size: 11px;
+    }
+    .list-multimedia .item-media .title
+    {
+        font-size: 11px;
+    }
+}
